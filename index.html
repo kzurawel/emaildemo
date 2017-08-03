@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <title>TrunkMail</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="email">
+      <div class="form-row">
+        <label>
+          <span class="field-name">To:</span>
+          <input type="text" name="to" class="required" />
+        </label>
+        <div class="autocomplete-list"></div>
+      </div>
+
+      <div class="form-row">
+        <label>
+          <span class="field-name">CC:</span>
+          <input type="text" name="cc" />
+        </label>
+        <div class="autocomplete-list"></div>
+      </div>
+
+      <div class="form-row">
+        <label>
+          <span class="field-name">Subject:</span>
+          <input type="text" name="subject" class="required" />
+        </label>
+      </div>
+
+      <div class="form-row">
+        <label>
+          <span class="field-name">Body:</span>
+          <textarea name="body" class="required"></textarea>
+        </label>
+      </div>
+
+      <button class="sendEmail">Send</button>
+    </div>
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="lodash.js"></script>
+    <script src="autocomplete.js"></script>
+    <script src="email.js"></script>
+  </body>
+</html>

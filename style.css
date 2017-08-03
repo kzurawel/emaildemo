@@ -1,0 +1,33 @@
+.email label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.email .field-name {
+  display: inline-block;
+  margin-top: 0.2em;
+  width: 4em;
+  vertical-align: top;
+}
+
+.email input,
+.email textarea {
+  display: inline-block;
+  font-size: 0.85em;
+  width: 25em;
+}
+
+.email textarea {
+  height: 6em;
+  line-height: 1.2;
+}
+
+.email .error {
+  color: #c00;
+  display: block;
+  margin-left: 4em;
+}
+
+.active {
+  background-color: #aaa;
+}
